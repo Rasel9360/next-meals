@@ -1,6 +1,13 @@
 import Meals from '@/components/Meals';
 import React from 'react';
 
+export const metadata = {
+    title: {
+        absolute: 'Meals'
+    },
+    description: "Chose you favorite meals",
+  };
+
 const MealsPage = () => {
     return (
         <div className='w-11/12 mx-auto mt-10'>

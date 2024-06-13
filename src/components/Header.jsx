@@ -20,6 +20,10 @@ const Header = () => {
             title: 'Meals',
             path: '/meals'
         },
+        {
+            title: 'Gallery',
+            path: '/gallery'
+        },
         // {
         //     title: 'Contact',
         //     path: '/contact'
