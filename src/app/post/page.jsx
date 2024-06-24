@@ -24,6 +24,9 @@ const page = async () => {
 
     const currentTime = await getTime();
     // console.log(currentTime);
+
+    
+
     return (
         <div>
             <h1 className="text-4xl text-center font-serif my-5">All Post</h1>

@@ -1,8 +1,12 @@
 
+import { getServerSession } from 'next-auth';
 import Image from 'next/image';
 import React from 'react';
+import { authOption } from '../api/auth/[...nextauth]/route';
 
-const GalleryPage = () => {
+const GalleryPage = async () => {
+    const session = await getServerSession(authOption);
+    console.log({session});
     return (
         <div className=''>
             {
